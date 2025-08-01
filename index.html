@@ -33,13 +33,10 @@
       width: 120px;
       height: 120px;
       border-radius: 50%;
-      background: #333;
+      object-fit: cover;
       margin: 0 auto 1rem auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2rem;
-      color: #aaa;
+      display: block;
+      border: 2px solid #333;
     }
 
     .username {
@@ -73,9 +70,7 @@
 </head>
 <body>
   <div class="card">
-    <div class="avatar">
-      <img class="avatar" src="Pancho.jpg" alt="Avatar">
-    </div>
+    <img class="avatar" src="avatar.png" alt="Avatar">
     <div class="username">Netexy</div>
     <div class="links">
       <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
